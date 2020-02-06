@@ -9,28 +9,28 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'S2P-Photography-UI';
 
-  constructor(private router:Router) {
+  constructor(private router: Router) {
 
   }
-  gotoAbout(){
+  gotoAbout() {
     this.router.navigate(['/about']);
   }
-  gotoTeam(){
-
+  gotoTeam() {
+    this.router.navigate(['/team']);
   }
-  gotoPortfolio(){
-
+  gotoPortfolio() {
+    this.router.navigate(['/portfolio']);
   }
-  gotoFilms(){
-
+  gotoFilms() {
+    this.router.navigate(['/films']);
   }
-  gotoStories(){
-
+  gotoStories() {
+    this.router.navigate(['/stories']);
   }
-  gotoContact(){
-
+  gotoContact() {
+    this.router.navigate(['/contact']);
   }
-  gotoFaq(){
-
+  gotoFaq() {
+    this.router.navigate(['/faq']);
   }
 }

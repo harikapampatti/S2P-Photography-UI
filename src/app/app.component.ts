@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,29 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'S2P-Photography-UI';
+
+  constructor(private router:Router) {
+
+  }
+  gotoAbout(){
+    this.router.navigate(['/about']);
+  }
+  gotoTeam(){
+
+  }
+  gotoPortfolio(){
+
+  }
+  gotoFilms(){
+
+  }
+  gotoStories(){
+
+  }
+  gotoContact(){
+
+  }
+  gotoFaq(){
+
+  }
 }
